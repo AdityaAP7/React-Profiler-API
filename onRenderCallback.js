@@ -8,3 +8,4 @@ function onRenderCallback(
   commitTime, // timestamp when React committed changes
   interactions // the Set of interactions
 ) {
+  // You can store or process this data
