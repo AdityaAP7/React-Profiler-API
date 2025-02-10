@@ -11,3 +11,4 @@ function onRenderCallback(
   // You can store or process this data
   console.log({ id, phase, actualDuration, baseDuration });
 }
+function App() {
