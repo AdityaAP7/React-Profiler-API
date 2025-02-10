@@ -4,3 +4,4 @@ function onRenderCallback(
   phase, // either "mount" or "update"
   actualDuration, // time spent rendering the Profiler and its descendants
   baseDuration, // estimated time to render the entire subtree without memoization
+  startTime, // timestamp when React began rendering
