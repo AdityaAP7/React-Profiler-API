@@ -16,4 +16,5 @@ function App() {
     <Profiler id="AppProfiler" onRender={onRenderCallback}>
       <SomeComplexComponent />
     </Profiler>
-  );
+  );}
+
