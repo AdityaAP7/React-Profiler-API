@@ -14,3 +14,4 @@ function onRenderCallback(
 function App() {
   return (
     <Profiler id="AppProfiler" onRender={onRenderCallback}>
+      <SomeComplexComponent />
