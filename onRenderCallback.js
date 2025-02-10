@@ -5,3 +5,4 @@ function onRenderCallback(
   actualDuration, // time spent rendering the Profiler and its descendants
   baseDuration, // estimated time to render the entire subtree without memoization
   startTime, // timestamp when React began rendering
+  commitTime, // timestamp when React committed changes
