@@ -7,3 +7,4 @@ function onRenderCallback(
   startTime, // timestamp when React began rendering
   commitTime, // timestamp when React committed changes
   interactions // the Set of interactions
+) {
