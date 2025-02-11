@@ -13,3 +13,4 @@ function PerformanceDashboard() {
           {m.id} - {m.phase} - {m.actualDuration.toFixed(2)} ms
         </div>
       ))}
+    </div>
