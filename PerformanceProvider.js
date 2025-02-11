@@ -8,3 +8,4 @@ export function PerformanceProvider({ children }) {
         ...prev,
         { id, phase, actualDuration, baseDuration, startTime, commitTime }
       ]);
+    },
