@@ -7,3 +7,4 @@ export function PerformanceProvider({ children }) {
       setMetrics(prev => [
         ...prev,
         { id, phase, actualDuration, baseDuration, startTime, commitTime }
+      ]);
