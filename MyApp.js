@@ -5,3 +5,4 @@ function MyApp() {
       {/* ...rest of your app */}
     </Profiler>
   );
+}
