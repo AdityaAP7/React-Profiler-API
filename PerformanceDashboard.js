@@ -14,3 +14,4 @@ function PerformanceDashboard() {
         </div>
       ))}
     </div>
+  );
