@@ -6,3 +6,4 @@ export function PerformanceProvider({ children }) {
     (id, phase, actualDuration, baseDuration, startTime, commitTime, interactions) => {
       setMetrics(prev => [
         ...prev,
+        { id, phase, actualDuration, baseDuration, startTime, commitTime }
