@@ -3,3 +3,4 @@ function MyApp() {
   return (
     <Profiler id="MyAppProfiler" onRender={onRenderCallback}>
       {/* ...rest of your app */}
+    </Profiler>
