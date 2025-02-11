@@ -18,3 +18,4 @@ export function PerformanceProvider({ children }) {
   );
 }
 export function usePerformanceData() {
+  return useContext(PerformanceContext);
