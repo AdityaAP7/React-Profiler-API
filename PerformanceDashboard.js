@@ -11,3 +11,4 @@ function PerformanceDashboard() {
       {metrics.slice(-5).map((m, idx) => (
         <div key={idx}>
           {m.id} - {m.phase} - {m.actualDuration.toFixed(2)} ms
+        </div>
