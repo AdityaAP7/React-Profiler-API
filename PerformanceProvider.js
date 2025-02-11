@@ -15,3 +15,4 @@ export function PerformanceProvider({ children }) {
     <PerformanceContext.Provider value={{ metrics, onRenderCallback }}>
       {children}
     </PerformanceContext.Provider>
+  );
