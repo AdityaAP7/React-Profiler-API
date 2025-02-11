@@ -6,3 +6,4 @@ function PerformanceDashboard() {
   // e.g. group by "id" or "phase"
   return (
     <div style={{ position: 'fixed', bottom: 0, right: 0, width: '300px', background: '#fff' }}>
+      {/* Use a chart library to plot metrics */}
