@@ -9,3 +9,4 @@ function PerformanceDashboard() {
       {/* Use a chart library to plot metrics */}
       <h4>Last Render Times</h4>
       {metrics.slice(-5).map((m, idx) => (
+        <div key={idx}>
