@@ -8,3 +8,4 @@ function PerformanceDashboard() {
     <div style={{ position: 'fixed', bottom: 0, right: 0, width: '300px', background: '#fff' }}>
       {/* Use a chart library to plot metrics */}
       <h4>Last Render Times</h4>
+      {metrics.slice(-5).map((m, idx) => (
