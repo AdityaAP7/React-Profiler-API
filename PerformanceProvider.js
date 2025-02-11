@@ -17,3 +17,4 @@ export function PerformanceProvider({ children }) {
     </PerformanceContext.Provider>
   );
 }
+export function usePerformanceData() {
