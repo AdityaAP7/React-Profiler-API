@@ -1,2 +1,3 @@
 
 import { usePerformanceData } from './PerformanceProvider';
+function PerformanceDashboard() {
