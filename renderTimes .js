@@ -9,3 +9,4 @@ function onRenderCallback(id, phase, actualDuration, baseDuration) {
   const avg = sum / renderTimes[id].length;
   if (avg > 16) {
     console.warn(`Component ${id} is "heavy": average render time is ${avg.toFixed(2)} ms`);
+}
