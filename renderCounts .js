@@ -7,3 +7,4 @@ function onRenderCallback(id, phase, actualDuration) {
     console.warn(`Component ${id} re-rendered more than 20 times! Potential performance issue.`);
   }
   // reset logic if needed (e.g., every minute)
+}
