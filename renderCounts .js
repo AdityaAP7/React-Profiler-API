@@ -5,3 +5,4 @@ function onRenderCallback(id, phase, actualDuration) {
   // check threshold
   if (renderCounts[id] > 20) {
     console.warn(`Component ${id} re-rendered more than 20 times! Potential performance issue.`);
+  }
