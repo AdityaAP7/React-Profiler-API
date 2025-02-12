@@ -15,3 +15,4 @@ function onRenderCallback(id, phase, actualDuration, baseDuration) {
     renderTimes[id] = [];
   }
   renderTimes[id].push(actualDuration);
+  // get average
