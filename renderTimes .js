@@ -7,3 +7,4 @@ function onRenderCallback(id, phase, actualDuration, baseDuration) {
   // get average
   const sum = renderTimes[id].reduce((acc, val) => acc + val, 0);
   const avg = sum / renderTimes[id].length;
+  if (avg > 16) {
