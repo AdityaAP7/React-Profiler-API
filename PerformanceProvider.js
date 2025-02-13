@@ -36,3 +36,4 @@ export function PerformanceProvider({ children }) {
     <Profiler id="PerformanceProfiler" onRender={onRenderCallback}>
       <PerformanceContext.Provider value={{ metrics }}>
         {children}
+      </PerformanceContext.Provider>
