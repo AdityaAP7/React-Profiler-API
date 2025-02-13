@@ -27,3 +27,4 @@ export function PerformanceProvider({ children }) {
       commitTime,
       interactions
     ) => {
+      // Push a new entry into the metrics array
