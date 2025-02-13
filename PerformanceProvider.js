@@ -24,3 +24,4 @@ export function PerformanceProvider({ children }) {
       actualDuration,
       baseDuration,
       startTime,
+      commitTime,
