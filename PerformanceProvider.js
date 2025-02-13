@@ -35,3 +35,4 @@ export function PerformanceProvider({ children }) {
     // The Profiler must wrap the components you want to measure
     <Profiler id="PerformanceProfiler" onRender={onRenderCallback}>
       <PerformanceContext.Provider value={{ metrics }}>
+        {children}
