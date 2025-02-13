@@ -22,3 +22,4 @@ export function PerformanceProvider({ children }) {
       id,
       phase,
       actualDuration,
+      baseDuration,
