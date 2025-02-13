@@ -32,3 +32,4 @@ export function PerformanceProvider({ children }) {
         ...prev,
         {
   return (
+    // The Profiler must wrap the components you want to measure
