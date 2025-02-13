@@ -19,3 +19,4 @@ export function PerformanceProvider({ children }) {
   const [metrics, setMetrics] = useState([]);
   const onRenderCallback = useCallback(
     (
+      id,
