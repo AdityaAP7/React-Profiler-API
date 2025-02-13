@@ -15,3 +15,4 @@ const PerformanceContext = createContext({
  *    - Wraps children in a <Profiler> so that the callback is actually called
  *    - Stores the performance data in context for the rest of the app
  */
+export function PerformanceProvider({ children }) {
