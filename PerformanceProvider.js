@@ -7,3 +7,4 @@ import React, {
 } from 'react';
 // 1) Create your Context (with an optional default value).
 const PerformanceContext = createContext({
+  metrics: []
