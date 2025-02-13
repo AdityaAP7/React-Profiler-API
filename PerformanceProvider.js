@@ -11,3 +11,4 @@ const PerformanceContext = createContext({
 });
 /**
  * 2) Provide a wrapper component that:
+ *    - Keeps track of an array of metrics in state
