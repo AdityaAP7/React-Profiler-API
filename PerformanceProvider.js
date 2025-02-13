@@ -16,3 +16,4 @@ const PerformanceContext = createContext({
  *    - Stores the performance data in context for the rest of the app
  */
 export function PerformanceProvider({ children }) {
+  const [metrics, setMetrics] = useState([]);
