@@ -10,3 +10,4 @@ const PerformanceContext = createContext({
   metrics: []
 });
 /**
+ * 2) Provide a wrapper component that:
