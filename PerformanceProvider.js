@@ -13,3 +13,4 @@ const PerformanceContext = createContext({
  * 2) Provide a wrapper component that:
  *    - Keeps track of an array of metrics in state
  *    - Wraps children in a <Profiler> so that the callback is actually called
+ *    - Stores the performance data in context for the rest of the app
