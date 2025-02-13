@@ -31,3 +31,4 @@ export function PerformanceProvider({ children }) {
       setMetrics((prev) => [
         ...prev,
         {
+  return (
