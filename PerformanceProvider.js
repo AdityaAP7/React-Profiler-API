@@ -28,3 +28,4 @@ export function PerformanceProvider({ children }) {
       interactions
     ) => {
       // Push a new entry into the metrics array
+      setMetrics((prev) => [
