@@ -26,3 +26,4 @@ export function PerformanceProvider({ children }) {
       startTime,
       commitTime,
       interactions
+    ) => {
