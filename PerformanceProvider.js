@@ -11,3 +11,4 @@ const PerformanceContext = createContext(null);
  *    - Keeps track of an array of metrics in a ref (no repeated re-renders)
  *    - Wraps children in a <Profiler> so that the callback is actually called
  *    - Makes performance data available via context
+ */
