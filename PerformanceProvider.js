@@ -19,3 +19,4 @@ export function PerformanceProvider({ children }) {
   const onRenderCallback = (
     id,
     phase,
+    actualDuration,
