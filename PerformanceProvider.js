@@ -9,3 +9,4 @@ const PerformanceContext = createContext(null);
 /**
  * 2) Provide a wrapper component that:
  *    - Keeps track of an array of metrics in a ref (no repeated re-renders)
+ *    - Wraps children in a <Profiler> so that the callback is actually called
