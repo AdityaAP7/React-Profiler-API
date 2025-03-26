@@ -17,3 +17,4 @@ export function PerformanceProvider({ children }) {
   const metricsRef = useRef([]);
   // React Profiler callback
   const onRenderCallback = (
+    id,
