@@ -6,3 +6,4 @@ import React, {
 } from 'react';
 // 1) Create your Context (we'll hold a ref inside).
 const PerformanceContext = createContext(null);
+/**
