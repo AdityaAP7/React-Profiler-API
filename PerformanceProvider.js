@@ -14,3 +14,4 @@ const PerformanceContext = createContext(null);
  */
 export function PerformanceProvider({ children }) {
   // Use a ref so changes don't trigger re-renders.
+  const metricsRef = useRef([]);
