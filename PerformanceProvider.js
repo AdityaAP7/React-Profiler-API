@@ -18,3 +18,4 @@ export function PerformanceProvider({ children }) {
   // React Profiler callback
   const onRenderCallback = (
     id,
+    phase,
