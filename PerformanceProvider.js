@@ -8,3 +8,4 @@ import React, {
 const PerformanceContext = createContext(null);
 /**
  * 2) Provide a wrapper component that:
+ *    - Keeps track of an array of metrics in a ref (no repeated re-renders)
