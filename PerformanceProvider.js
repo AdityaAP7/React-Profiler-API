@@ -44,3 +44,4 @@ export function PerformanceProvider({ children }) {
       </PerformanceContext.Provider>
     </Profiler>
  );
+}
