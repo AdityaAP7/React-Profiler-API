@@ -31,3 +31,4 @@ export function PerformanceProvider({ children }) {
       phase,
       actualDuration,
       baseDuration,
+      startTime,
