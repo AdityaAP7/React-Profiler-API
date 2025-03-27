@@ -38,3 +38,4 @@ export function PerformanceProvider({ children }) {
     // No setState call here => no re-render
  };
   return (
+    <Profiler id="PerformanceProfiler" onRender={onRenderCallback}>
