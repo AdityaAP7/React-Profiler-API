@@ -42,3 +42,4 @@ export function PerformanceProvider({ children }) {
       <PerformanceContext.Provider value={metricsRef}>
         {children}
       </PerformanceContext.Provider>
+    </Profiler>
