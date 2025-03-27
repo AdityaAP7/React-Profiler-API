@@ -41,3 +41,4 @@ export function PerformanceProvider({ children }) {
     <Profiler id="PerformanceProfiler" onRender={onRenderCallback}>
       <PerformanceContext.Provider value={metricsRef}>
         {children}
+      </PerformanceContext.Provider>
