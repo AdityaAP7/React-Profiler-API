@@ -36,3 +36,4 @@ export function PerformanceProvider({ children }) {
       interactions
     });
     // No setState call here => no re-render
+ };
