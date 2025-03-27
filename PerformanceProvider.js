@@ -35,3 +35,4 @@ export function PerformanceProvider({ children }) {
       commitTime,
       interactions
     });
+    // No setState call here => no re-render
