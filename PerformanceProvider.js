@@ -25,3 +25,4 @@ export function PerformanceProvider({ children }) {
     commitTime,
     interactions
   ) => {
+    // Push the new metric into the ref
