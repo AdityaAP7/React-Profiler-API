@@ -26,3 +26,4 @@ export function PerformanceProvider({ children }) {
     interactions
   ) => {
     // Push the new metric into the ref
+    metricsRef.current.push({
