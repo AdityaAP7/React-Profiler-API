@@ -29,3 +29,4 @@ export function PerformanceProvider({ children }) {
     metricsRef.current.push({
       id,
       phase,
+      actualDuration,
