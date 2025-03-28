@@ -50,3 +50,4 @@ export function PerformanceProvider({ children }) {
  *    retrieve the latest collected metrics.
  */
 export function usePerformanceMetrics() {
+  const metricsRef = useContext(PerformanceContext);
