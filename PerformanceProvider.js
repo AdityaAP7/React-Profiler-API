@@ -55,3 +55,4 @@ export function usePerformanceMetrics() {
     throw new Error('usePerformanceMetrics must be used within PerformanceProvider');
   }
   // The current metrics array is always in metricsRef.current
+  return metricsRef.current;
