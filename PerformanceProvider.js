@@ -47,3 +47,4 @@ export function PerformanceProvider({ children }) {
 }
 /**
  * 3) Anywhere in your app, use the context to
+ *    retrieve the latest collected metrics.
