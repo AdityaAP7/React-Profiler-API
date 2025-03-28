@@ -52,3 +52,4 @@ export function PerformanceProvider({ children }) {
 export function usePerformanceMetrics() {
   const metricsRef = useContext(PerformanceContext);
   if (!metricsRef) {
+    throw new Error('usePerformanceMetrics must be used within PerformanceProvider');
