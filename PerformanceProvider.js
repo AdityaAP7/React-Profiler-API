@@ -46,3 +46,4 @@ export function PerformanceProvider({ children }) {
  );
 }
 /**
+ * 3) Anywhere in your app, use the context to
