@@ -56,3 +56,4 @@ export function usePerformanceMetrics() {
   }
   // The current metrics array is always in metricsRef.current
   return metricsRef.current;
+}
