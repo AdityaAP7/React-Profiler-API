@@ -1,4 +1,4 @@
-54321function MyApp() {
+654321function MyApp() {
   const { onRenderCallback } = usePerformanceData();
   return (
     <Profiler id="MyAppProfiler" onRender={onRenderCallback}>
